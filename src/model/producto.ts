@@ -2,6 +2,8 @@ export class ProductoModel{
     id:number;
     descripcion:string;
     precio:number;
+  tour: any;
+cliente: any;
 
     constructor(){
         this.id=1;
